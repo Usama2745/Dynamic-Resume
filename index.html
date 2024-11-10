@@ -1,0 +1,43 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1><font face="algerian">Dynamic Resume Builder<br> By <br>Usama Nadeem</h1></font>
+        <div>
+            <fieldset>
+                <legend><font face="algerian">Personal Information: </legend></font>
+            <label for="name"><font face="algerian">Name:</font></label>
+            <input type="text" id="name" placeholder="Name" />
+            <label for="email"><font face="algerian">Email:</font></label>
+            <input type="email" id="email" placeholder="Email" />
+            <label for="Phone Number"><font face="algerian">Phone:</font></label>
+            <input type="tel" id="phone" placeholder="Phone" />
+       
+        </fieldset>
+        </div>
+        
+        <h2><font face="algerian">Experience</font></h2>
+        <div id="experience-section"></div>
+        <button id="add-experience">Add Experience</button>
+
+        <h2><font face="algerian">Skills</font></h2>
+        <div id="skills-section"></div>
+        <button id="add-skill"><font face="algerian">Add Skill</font></button>
+
+        <button id="generate-resume"<font face="algerian">Generate Resume</font></button>
+
+        <h2><font face="algerian">Generated Resume</font></h2>
+        <pre id="output"></pre>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
